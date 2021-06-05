@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
+        <script src="js/addBlog.js"></script>
+        <title>Traveler|Your Blog</title>
+    </head>
+<body>
+  <!-----------------------------nav bar------------------------>
+    <div id="header" class="container shadow-sm p-3 mb-5 bg-white rounded">
+        <nav  class="navbar navbar-expand-lg">
+                <ul class="navbar-nav mr-auto">
+                    <li>
+                      <a class="navbar-brand" href="home.html">
+                        <h1 id="logo">T</h1> 
+                       </a>
+                    </li>
+                    <li class="nav-item  ">
+                    <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item ">
+                    <a class="nav-link" href="aboutus.html">About us</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="blog.html">Add blog</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="contacts.html">Contacts</a>
+                    </li>
+                    <li  class="nav-item">
+                      <div class="dropdown">
+                        <a class="nav-link dropdown-toggle"
+                              href="#"   id="dropdownMenu1" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                          Blogs
+                      </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                          <a class="dropdown-item" href="london.html">London</a>
+                          <a class="dropdown-item" href="mosco.html">Moscow</a>
+                          <a class="dropdown-item" href="newyork.html">New York</a>
+                          <a class="dropdown-item" href="sedny.html">Stdeny</a>
+                        </div>
+                      </div>
+                    </li>
+                </ul>
+        </nav>
+        </div>
+        <!-----------------------------banner------------------------>
+        <div id="banner">
+            <div  class="image">
+            <img  id="banner-img" src="img/home_banner.jpg" class="d-block w-100">
+            <h1 id="blogh" >Thank you !<br /><span id="blogTitle"class="display-4"></span></h1></div>
+        </div>
+        <!-----------------------------bage content------------------------>
+        <div id="pg-content"class="container shadow-sm p-3 mb-5 bg-white rounded">
+    <div class="baragraph"id="main">
+        <img id="blogImage" alt="">
+    </div>
+    <button class="btn btn-primary"onclick="view();">See Your Blog</button>
+</div>
+<!-----------------------------footer------------------------>
+<footer class=" container footer">
+    <p id="footer-p"><a href="#">Back to top</a></p>
+    <p>&copy; Developed by : Shaima &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  </footer>
+</body>
+</html>

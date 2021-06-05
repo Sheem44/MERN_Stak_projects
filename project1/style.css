@@ -1,0 +1,238 @@
+
+body{
+    background-color: aliceblue;
+}
+h2,p{
+    text-align: left;
+}
+hr{
+    width: 80%;
+}
+img{
+    max-width:100%;
+    max-height:100%;
+    
+}
+a{
+    color: #0093a7;
+}
+.container{
+    border-left: #019eb7 solid 2px;
+}
+.btn{
+    color: rgb(255 255 255);
+    background-color: #0093a7;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0px 30px 0;
+}
+/*Header*/
+#header{
+    margin-top: 30px;
+}
+#logo{
+    color: #ffffff;
+    background-color: #fecd01;
+    font-size: 2rem;
+    padding: 0px 10px 10px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    border-radius: 0px 18px 0;
+    margin: -10px 0px;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+.active a{
+   color: #fecd01;
+}
+
+/*banner*/
+#banner{
+    margin-top: -150px;
+    padding-bottom: 30px;
+	padding-top: 100px;
+    
+}
+#banner-img{
+    width: 700px;
+    height: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.image { 
+    position: relative; 
+    width: 100%; /* for IE 6 */
+ }
+ #banner h1 { 
+    position: absolute; 
+    top: 60px; 
+    right:30%;
+    width: 70%;
+    max-width: 100%;
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+ }
+ #banner span { 
+    color: rgb(255 255 255);
+    text-shadow: none;
+    background-color: #fecd01;
+    padding: 0px 5px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0px 30px 0;
+ }
+ #pg-content{
+	margin-top: -30px;
+    padding-bottom: 30px;
+	padding-top: 150px;
+    text-align: center;
+}
+#pg-content h2{
+    text-align: center;
+    margin: 5px 0px 30px;
+}
+#pg-content form button {
+    width: 200px;
+    height: 50px;
+}
+/*footer*/
+.footer{
+    background-color: #0093a7;
+    height: 73px;
+    margin-top: -50px;
+    border-top: #ffc107 solid;
+    
+}
+#footer-p a{
+    float: right;
+    color: white;
+    padding-top: 16px;
+}
+#footer-p:hover{
+    color: #ffc107;
+}
+ /*Home*/
+#home{
+    margin-top: 20px;
+    background-color: #ffd601;
+}
+#home p{
+    text-align: center;
+}
+
+.home-cards {
+    background-color: #9fd9ef29;
+    padding: 50px 20px -0px;
+    margin-right: 20px;
+    width: 50%;
+}
+.home-cards p{
+    text-align: center;
+}
+.home-cards img{
+  height: 100%;
+  border-radius:0px 30px 0;
+  opacity: 1;
+  display: block;
+  width: 100%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.home-cards img:hover{
+    opacity: 0.3;
+}
+
+/*About us */
+.about-us{
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top:5% ;
+}
+.about-us p{
+    text-align: center;
+}
+/*Blog page*/
+
+#addblog label{
+    color: rgb(255 255 255);
+    background-color: #0093a7;
+    padding: 10px 5px 10px;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0px 30px 0;
+}
+#addblog input, #addblog textarea{
+    margin-top: 15px;
+    border-radius: 0px 30px 0;
+    border-color:#ffd601; 
+}
+#addblog button{
+    margin: 5px;
+}
+#addblog button:hover{
+    background-color:#ffd601; 
+    border-color:#ffd601;      
+}
+
+/*Blog cards*/
+#cards{
+   margin: 5px;
+}
+#cards img{
+    width: 300px;
+    height: 200px;
+}
+.card{
+ margin: 10px;
+ width: 16rem;
+}
+
+
+/*cities pages*/
+.city-nav{
+    float: right;
+    margin: 5px;
+    color: rgb(255, 255, 255);
+    background-color: #fecd01;
+    padding: 0px 5px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0px 30px 0;
+    font-size: 2.5rem;
+    margin-top: -2px;
+}
+
+
+.baragraph{
+    margin: 30px 10px  50px 0px;
+    padding: 10px;
+}
+.baragraph p::first-letter{
+    font-size:35px;
+    line-height: 70px;
+    color: brown;
+}
+.baragraph img{
+    margin-top: 20px;
+}
+#first-img{
+    max-width:100%;
+    max-height:100%;
+    width: 300px;
+    height: 200px;
+}
+#second-img{
+    max-width:100%;
+    max-height:100%;
+    width: 300px;
+    height: 400px;
+    float: left;
+}
+
+/*user blogpage*/
+#blogh{
+    text-transform: capitalize;
+}
+#blogImage{
+    border-radius:0px 30px 0;
+    height: 40%;
+    width: 40%;
+}
